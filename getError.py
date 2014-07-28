@@ -1,3 +1,9 @@
+#!/usr/bin/python env
+""" getError.py
+This program will parse an xml file for the 'Error' element and return
+the associated string
+"""
+
 from xml.etree.ElementTree import parse
 from time import asctime
 
